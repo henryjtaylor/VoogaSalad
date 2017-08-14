@@ -1,0 +1,63 @@
+#splashpane{
+    -fx-background-image: url("images/background1.gif");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+}
+
+#splashlabel {
+	-fx-font-family: sans-serif;
+	-fx-alignment: top-left;
+	-fx-font-size: 200;
+	-fx-text-fill: white;
+}
+
+#mainpane {
+	-fx-background-image: url("images/mainpage.gif");
+	-fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+}
+
+#mainlabel {
+	-fx-font-family: sans-serif;
+	-fx-font-size: 75;
+	-fx-text-fill: white;
+}
+
+#gamelabel {
+	-fx-font-family: "American Typewriter";
+	-fx-font-size: 100;
+	-fx-text-fill: white;
+	-fx-effect: dropshadow(gaussian, #2f4f4f, 10, 0.2, 0, 0);
+
+}
+
+#instructionslabel {
+	-fx-font-family: "American Typewriter";
+	-fx-font-size: 40;
+	-fx-text-fill: white;
+	-fx-effect: dropshadow(gaussian, #2f4f4f, 10, 0.2, 0, 0);
+}
+
+.button {
+	-fx-background-color: #708090;
+	-fx-text-fill: white;
+	-fx-font-family: "Arial Narrow";
+	-fx-font-weight: bold;
+	-fx-font-size: 40;
+	-fx-effect: dropshadow(gaussian, #2f4f4f, 10, 0.2, 0, 0);
+}
+
+.button:hover {
+	-fx-background-color: #2f4f4f;
+	
+}
+
+
+.label {
+	-fx-font-family: "Baghdad";
+	-fx-font-size: 25;
+	-fx-text-fill: black;
+}
+

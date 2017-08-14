@@ -1,0 +1,128 @@
+/**** Network Window ****/
+
+.wide-box {
+	-fx-spacing: 50;
+	-fx-padding: 10;
+}
+
+.narrow-box {
+	-fx-spacing: 10
+}
+
+
+
+
+
+
+/**** General ****/
+
+.root {
+	-fx-base: rgb(80, 80, 80);
+	-fx-background: rgb(80, 80, 80);
+	-fx-control-inner-background: rgb(80, 80, 80);
+}
+
+.tab-pane .tab
+{
+    -fx-background-color: gray;
+}
+.tab-pane .tab:selected
+{
+    -fx-background-color: rgb(80,80,80);
+}
+
+.text {
+	-fx-font-family: arial;
+	-fx-font-size: 16;
+	-fx-text-fill: white;
+
+}
+.label {
+	-fx-font-family: arial;
+	-fx-font-size: 24;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+
+.view-grid {
+	-fx-padding: 10;
+	-fx-grid-lines-visible: false;
+}
+
+.view-grid-cell {
+	-fx-stroke: black;
+	-fx-stroke-opacity: 1;
+	-fx-fill: transparent;
+}
+
+.list-cell {
+	-fx-text-fill: black;
+	-fx-font-weight: bold;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #0b5345
+}
+
+.list-cell:even {
+    -fx-background-color: #76d7c4;
+}
+
+.list-cell:odd {
+     -fx-background-color: #48c9b0;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #117A65;
+}
+
+.button {
+	-fx-text-fill: white; 
+	-fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+	-fx-background-color: linear-gradient(#2A5058, #61a2b1)
+}
+
+.scroll-bar { 
+    -fx-background-color: transparent;
+}
+.scroll-bar > .track {
+    -fx-background-color: #A2D9CE;
+    -fx-background-radius: 5em; /*24px;*/
+    -fx-background-insets: 0.23em; /*4px;*/
+}
+.scroll-bar > .increment-button, .decrement-button {
+    -fx-background-color: transparent;
+}
+.scroll-bar > .increment-button:hover > .increment-arrow,
+.scroll-bar > .decrement-button:hover > .decrement-arrow {
+    -fx-background-color: #f27d50;
+}
+.scroll-bar > .thumb {
+    -fx-background-color: #138D75;
+    -fx-background-radius: 5em; /*24px;*/
+    -fx-background-insets: 0.23em; /* 0.333333em;*/ /*4px;*/
+}
+.scroll-bar > .thumb:hover {
+    -fx-background-color: #117A65;
+}
+.scroll-bar > .thumb:pressed {
+    -fx-background-color: #0E6655;
+}
+
+.slider {
+    -fx-background-color: #76d7c4;
+    -fx-text-fill: white;
+}
+
+#actions .list-cell{
+	-fx-alignment: center;
+	-fx-position: center;
+	-fx-height: 200px;
+	-fx-width: 200px;
+}
+

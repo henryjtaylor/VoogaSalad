@@ -1,0 +1,59 @@
+<users>
+  <entry>
+    <string>ralph</string>
+    <userdata>
+      <username>ralph</username>
+      <password>taylor</password>
+      <image></image>
+      <myGameScores>
+        <entry>
+          <string>nellHenry&apos;sFinalDemoGame1494544371847</string>
+          <double>750.0</double>
+        </entry>
+      </myGameScores>
+      <myAchievements>
+        <string></string>
+      </myAchievements>
+      <myGames class="list"/>
+      <mySavedGameMap/>
+    </userdata>
+  </entry>
+  <entry>
+    <string>nell</string>
+    <userdata>
+      <username>nell</username>
+      <password>taylor</password>
+      <image>file:/Users/Henry/Documents/workspace-CS308/voogasalad_raindrop/images/bob.png</image>
+      <myGameScores>
+        <entry>
+          <string>Henry&apos;sFinalDemoGame</string>
+          <double>450.0</double>
+        </entry>
+      </myGameScores>
+      <myAchievements>
+        <string></string>
+      </myAchievements>
+      <myGames class="list">
+        <string>nellHenry&apos;sFinalDemoGame1494544371847</string>
+      </myGames>
+      <mySavedGameMap>
+        <entry>
+          <string>nellHenry&apos;sFinalDemoGame1494544371847</string>
+          <string>Henry&apos;sFinalDemoGame</string>
+        </entry>
+      </mySavedGameMap>
+    </userdata>
+  </entry>
+  <entry>
+    <string>john</string>
+    <userdata>
+      <username>john</username>
+      <password>test</password>
+      <image></image>
+      <myGameScores/>
+      <myAchievements/>
+      <myGames class="list"/>
+      <mySavedGameMap/>
+    </userdata>
+  </entry>
+</users>
